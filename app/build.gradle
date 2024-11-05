@@ -8,6 +8,15 @@ plugins {
 apply from: '../shared_dependencies.gradle'
 
 android {
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+    }
+
+
     namespace 'com.prapps.movieapps'
     compileSdk 34
 
