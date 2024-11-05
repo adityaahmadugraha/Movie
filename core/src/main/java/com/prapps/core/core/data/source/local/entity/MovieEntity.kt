@@ -1,6 +1,5 @@
 package com.prapps.core.core.data.source.local.entity
 
-import androidx.annotation.NonNull
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -8,7 +7,7 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "movie")
 data class MovieEntity(
     @PrimaryKey
-    @NonNull
+//    @NonNull
     @ColumnInfo(name = "id")
     var id: Int,
 
