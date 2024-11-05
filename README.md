@@ -4,7 +4,7 @@
 
 ## Fitur
 - **Integrasi API**: [The Movie Database (TMDb) API](https://api.themoviedb.org) 
-- **Dependency Injection dengan Koin**
+- **Dependency Injection with Koin**
 - **Room Database**
 - **Modular Architecture**
 - **Security**
